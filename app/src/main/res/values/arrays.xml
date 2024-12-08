@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="start_menu">
+        <item>@string/start_play</item>
+        <item>@string/start_ics</item>
+        <item>@string/start_practice</item>
+        <item>@string/start_puzzles</item>
+        <item>@string/start_globalpreferences</item>
+        <item>@string/start_boardpreferences</item>
+        <item>@string/start_about</item>
+        <item>@string/start_pgn</item>
+    </string-array>
+    <string-array name="play_menu">
+        <item>@string/menu_game_settings</item>
+        <item>@string/menu_new</item>
+        <item>@string/menu_new_duck</item>
+        <item>@string/menu_new_960</item>
+        <item>@string/menu_setup</item>
+        <item>@string/menu_save_game</item>
+        <item>@string/menu_load_game</item>
+        <item>@string/menu_prefs</item>
+        <item>@string/menu_set_clock</item>
+        <item>@string/menu_fromclip</item>
+        <item>@string/menu_clip_pgn</item>
+    </string-array>
+    <string-array name="levels_ply">
+        <item>1 ply</item>
+        <item>2 ply</item>
+        <item>3 ply</item>
+        <item>4 ply</item>
+        <item>5 ply</item>
+        <item>6 ply</item>
+        <item>7 ply</item>
+        <item>8 ply</item>
+        <item>9 ply</item>
+        <item>10 ply</item>
+    </string-array>
+    <string-array name="levels_time">
+        <item>@string/choice_level_1</item>
+        <item>@string/choice_level_2</item>
+        <item>@string/choice_level_3</item>
+        <item>@string/choice_level_4</item>
+        <item>@string/choice_level_5</item>
+        <item>@string/choice_level_6</item>
+        <item>@string/choice_level_7</item>
+        <item>@string/choice_level_8</item>
+        <item>@string/choice_level_9</item>
+        <item>@string/choice_level_10</item>
+    </string-array>
+    <string-array name="promotionpieces">
+        <item>@string/choice_queen</item>
+        <item>@string/choice_rook</item>
+        <item>@string/choice_bishop</item>
+        <item>@string/choice_knight</item>
+    </string-array>
+    <string-array name="colorschemes">
+        <item>@string/color_scheme_yellow</item>
+        <item>@string/color_scheme_blue</item>
+        <item>@string/color_scheme_green</item>
+        <item>@string/color_scheme_grey</item>
+        <item>@string/color_scheme_brown</item>
+        <item>@string/color_scheme_red</item>
+        <item>@string/color_scheme_orange</item>
+        <item>@string/color_scheme_pink</item>
+        <item>@string/color_scheme_purple</item>
+    </string-array>
+    <string-array name="colorscheme_indexes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="match_time_minutes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="match_time_increments">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="match_rated">
+        <item>@string/choice_match_unrated</item>
+        <item>@string/choice_match_rated</item>
+    </string-array>
+    <string-array name="match_variant">
+        <item>Standard</item>
+        <item>Chess 960 (experimental)</item>
+    </string-array>
+    <string-array name="match_color">
+        <item>@string/match_option_color_random</item>
+        <item>@string/match_option_color_white</item>
+        <item>@string/match_option_color_black</item>
+    </string-array>
+    <string-array name="console_character_size">
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="console_character_size_values">
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="time_warning">
+        <item>@string/time_warning_5</item>
+        <item>@string/time_warning_10</item>
+        <item>@string/time_warning_25</item>
+        <item>@string/time_warning_45</item>
+        <item>@string/time_warning_60</item>
+    </string-array>
+    <string-array name="time_warning_values">
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="gamestartsound">
+        <item>@string/game_start_sound_none</item>
+        <item>@string/game_start_sound_sound_and_vibration</item>
+        <item>@string/game_start_sound_sound_only</item>
+        <item>@string/game_start_sound_vibration</item>
+    </string-array>
+    <string-array name="gamestartsound_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="field_files">
+        <item>none</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+    </string-array>
+    <string-array name="pgn_tool_menu">
+        <item>@string/pgntool_export_explanation</item>
+        <item>@string/pgntool_import_explanation</item>
+        <item>@string/pgntool_delete_explanation</item>
+        <!-- <item>@string/pgntool_add_db_explanation</item> -->
+        <item>@string/pgntool_create_db_explanation</item>
+        <item>@string/pgntool_point_db_explanation</item>
+        <item>@string/pgntool_unset_uci_engine</item>
+        <item>@string/pgntool_unset_uci_database</item>
+         <item>@string/pgntool_import_practice</item>
+        <item>@string/pgntool_reset_practice</item>
+        <item>@string/pgntool_import_puzzle</item>
+<!--        <item>@string/pgntool_import_opening</item>-->
+        <item>@string/pgntool_help</item>
+    </string-array>
+    <string-array name="tileKeyArray">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tileArray">
+        <item>@string/tile_none</item>
+        <item>@string/tile_single_shade</item>
+        <item>@string/tile_double_shade</item>
+    </string-array>
+    <string-array name="localearray">
+        <item>@string/locale_en_title</item>
+        <item>@string/locale_zh_title</item>
+        <item>@string/locale_it_title</item>
+        <item>@string/locale_pt_title</item>
+        <item>@string/locale_es_title</item>
+        <item>@string/locale_ru_title</item>
+        <item>@string/locale_de_title</item>
+        <item>@string/locale_fr_title</item>
+    </string-array>
+    <string-array name="localeKeyarray">
+        <item>@string/locale_en</item>
+        <item>@string/locale_zh</item>
+        <item>@string/locale_it</item>
+        <item>@string/locale_pt</item>
+        <item>@string/locale_es</item>
+        <item>@string/locale_ru</item>
+        <item>@string/locale_de</item>
+        <item>@string/locale_fr</item>
+    </string-array>
+    <string-array name="piecesetarray">
+        <item>@string/pieceset_alpha</item>
+        <item>@string/pieceset_merida</item>
+        <item>@string/pieceset_leipzig</item>
+        <item>@string/pieceset_california</item>
+        <item>@string/pieceset_companion</item>
+        <item>@string/pieceset_chessnut</item>
+        <item>@string/pieceset_kosal</item>
+        <item>@string/pieceset_staunty</item>
+    </string-array>
+    <string-array name="piecesetKeyarray">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+</resources>

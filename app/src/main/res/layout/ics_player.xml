@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvopponentname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip"
+        android:textSize="18sp"
+        android:text="name" />
+
+    <TableLayout
+        android:id="@+id/ICSPlayerButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_marginTop="15dp">
+
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:width="90dp"
+                android:id="@+id/ButHistory"
+                android:text="@string/ics_history" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:width="90dp"
+                android:id="@+id/ButFinger"
+                android:text="@string/ics_finger" />
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:width="90dp"
+                android:id="@+id/ButUnFollow"
+                android:text="@string/ics_unfollow" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:width="90dp"
+                android:id="@+id/ButFollow"
+                android:text="@string/ics_follow" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:width="90dp"
+                android:id="@+id/ButMatch"
+                android:text="@string/ics_match" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:width="90dp"
+                android:id="@+id/ButSmoves"
+                android:text="@string/ics_gamenumber" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
